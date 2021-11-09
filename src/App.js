@@ -1,9 +1,12 @@
-// import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div></div>
+    <section>
+      <img src={logo} alt="logo de los simpsons" />
+    </section>
   );
 }
 
