@@ -24,8 +24,8 @@ function App() {
   return (
     <section className='container my-5 d-flex flex-column align-items-center'>
       <img src={logo} alt="logo de los simpsons" />
-      <Button variant='warning' className='my-5 w-50'>Obtener frase</Button>
-      <Frase></Frase>
+      <Button variant='warning' className='my-5 w-50' onClick={()=> consultarAPI()}>Obtener frase</Button>
+      <Frase personaje={personaje}></Frase>
     </section>
   );
 }
